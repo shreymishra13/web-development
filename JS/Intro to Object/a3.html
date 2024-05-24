@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+
+    <script>
+
+        document.write("Here we are using arrays and creating our own function to get the maximum value of array : <br>")
+
+        var num = [8, 4, 5, 6, 2 , 7  ,9]
+        document.write("Our arrays is : " + num + "<br>")
+
+        function findMax(nums) {
+
+            var max = 0;
+            for (let i = 0; i < nums.length; i++) {
+                if (nums[i] > max) {
+                    max = nums[i];
+                }
+            }
+            return max;
+        }
+        
+        document.write("The maximum number in the array is : " + findMax(num));
+    </script>
+
+</body>
+
+</html>

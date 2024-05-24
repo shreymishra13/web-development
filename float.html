@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Float</title>
+    <style>
+        #flowerRight{
+            filter: drop-shadow(10px 20px 5px black);
+            float: right;
+            
+
+        }
+
+        #flowerLeft {
+            float: left;
+        }
+
+        .flower-styling {
+
+            width: 100px;
+            height: 100px;
+
+        }
+        #img-p{
+            background-color: aqua;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>Float Right</h2>
+
+    <p>In this example, the image will float to the right in the paragraph, and the text in the paragraph will wrap
+        around the image.</p>
+
+    <p id="img-p">
+        <img class="flower-styling" id="flowerRight" src="flower.png" alt="tree" ">
+        <img class=" flower-styling" id="flowerLeft" src="flower.png" alt="tree" ">
+        This is a dummy content used to understand float property
+    </p>
+</body>
+
+</html>
